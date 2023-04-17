@@ -1,14 +1,12 @@
 import './App.css';
+import { Navbar } from './components';
 
-function App() {
-  return (
-    <div className="App">
-      <header>
-        <h1>Book's Lovers</h1>
-        <h2>Best Seller Books in 2023</h2>  
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <Navbar />
+    <h1>Book's Lovers</h1>
+    <h2>Best Seller Books in 2023</h2> 
+  </div>
+)
 
 export default App;
